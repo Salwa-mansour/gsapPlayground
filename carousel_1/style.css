@@ -39,7 +39,6 @@ section {
   align-items: center;
   color: white;
   scroll-snap-align: center;
-  overflow: hidden;
 }
 
 .carousel-slide-abs {
@@ -49,6 +48,7 @@ section {
   transform: translate(-50%, -50%);
   width: 75vw;
   height: 70vh;
+  perspective: 750px;
 }
 
 .carousel-slide img {
@@ -76,6 +76,7 @@ h5 {
   display: none; /* displayed in the JS */
   position: absolute;
   width: 100%;
+  top: 50%;
 }
 
 .carousel-nav button {
